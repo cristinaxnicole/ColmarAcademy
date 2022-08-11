@@ -1,0 +1,450 @@
+html {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    height: 64px;
+    justify-content: space-between;
+    background-color: lightskyblue;
+}
+
+header .mobile {
+    display: none;
+}
+header h1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 0px 0px 24px;
+
+}
+
+header h1 span {
+    color: gray;
+    font-weight: 200;
+}
+nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+nav ul li {
+    margin: .5rem;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+body {
+    background-color: darkgray;
+}
+.start {
+    display: flex; 
+    background-color: black;
+}
+
+.img-1 img {
+    padding: 32px 24px 32px 24px;
+    max-width: 100%;
+    height: auto;
+}
+
+.start h1 {
+    font-size: 3rem;
+    margin-top: 50%;
+    color: orange;
+    display: block;
+}
+
+.start p {
+    font-size: 50px;
+    color: orange;
+}
+
+.start button {
+    width: 100%;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: .25s ease-in;
+    
+}
+
+.start button:hover {
+    cursor: pointer;
+    color: orange;
+    border-radius: 10px;
+    background-color: lightblue; 
+}
+
+.middle {
+    display: flex;
+    background-color: darkgray;
+}
+
+.middle-2 {
+    width: 60%;
+    padding: 32px 24px 32px 24px;
+}
+
+.middle h1 {
+    text-align: center;
+    padding: 16px 12px 16px 12px;
+}
+
+.middle-2 h1 {
+    font-size: 50px;
+}
+
+.middle-2 p {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.new-middle {
+    flex-wrap: nowrap;
+    padding: 32px 24px 32px 24px;
+    
+}
+
+.event {
+    display: flex;
+    padding: 16px 12px 16px 12px;
+    height: auto;
+    border: 2px solid white;
+    margin: 24px 0;
+    margin-top: 1px;
+}
+
+.event:hover {
+    background-color: gray;
+    color: purple;
+}
+
+.middle-3 {
+    text-align: center;
+}
+
+.middle-3 p {
+    font-size: 30px;
+}
+
+.middle-3 h2 {
+    text-decoration: underline;
+    color: blue;
+}
+
+.middle-3 h2:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.last {
+    background-color: black;
+    color: orange;
+    margin-bottom: 0;
+    background-size: cover;
+}
+
+.last-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin: 32px 24px 32px 24px;
+
+}
+    
+.last h1{
+    text-decoration: underline;
+    color: orange;
+    text-align: center;
+    margin-top: 0px;
+    padding: 16px 12px 16px 12px;
+    font-size: 3rem;
+    
+}
+
+.last h1:hover {
+    cursor: pointer;
+    color: rgb(167, 70, 167);
+}
+
+.last-box h1 {
+    color: darkblue;
+    padding: 4px 3px 4px 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.last-box h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 4px 3px 4px 3px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.last-box p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 4px 3px 4px 3px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.img {
+    border: 1px solid white;
+    background-color: orange;
+    color: black;
+    width: 30%;
+    height: auto;
+    margin: 32px 24px 32px 24px;
+    
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.thesis {
+    background-color: darkgray;
+    padding: 8px 8px;
+
+}
+.thesis h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.thesis-content {
+    display: flex;
+}
+
+.video {
+    max-width: 60%;
+    height: auto;
+}
+
+.video video {
+    max-width: 95%;
+    height: auto;
+    margin: 24px 24px;
+    
+}
+
+.video h1 {
+    margin-left: 24px;
+    text-align: left;
+}
+
+.video p {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.info-1 {
+
+    display: flex;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    margin-top: 24px;
+}
+
+.info-1:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.info-1 img {
+    display: flex;
+
+}
+
+.thesis-words {
+    font-size: 18px;
+   margin-left: 16px;
+
+}
+
+.thesis-words h1 {
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: orange;
+    
+}
+
+footer h1 {
+    font-size: 16px;
+    margin: 24px;
+
+}
+
+.terms {
+    width: 80%;
+    list-style: none;
+    text-align: right;
+}
+
+.terms ul {
+    display: inline-flex;
+    
+}
+.terms ul li {
+    word-spacing: 10px;
+    padding: 8px 6px 8px 6px;
+    font-size: 16px;
+    display: flex;
+}
+
+.terms li:hover {
+    cursor: pointer;
+    color:rgb(167, 70, 167);
+}
+
+@media only screen and (max-width: 850px) {
+    nav ul {
+        display: none;
+    }
+
+    header h1 {
+        display: none;
+    }
+
+    header {
+        justify-items: space-between;
+        width: auto;
+        height: 64px;
+        display: flex;
+        text-align: center;
+        border: 1px solid black;
+        
+    }
+
+    header #phone {
+        display: flex;
+        height: 100%;
+        justify-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .start {
+        display: block;
+        text-align: center;
+    }
+
+    .img-1 img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .start-1 h1 {
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .middle-2 {
+        display: none;
+    }
+
+    .last {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .last-box {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .img {
+        width: 90%;
+        margin: 24px 8px;
+        
+    }
+
+    .last-box h2 {
+        display: none;
+
+    }
+
+    .last-box p {
+        display: none;
+    }
+
+    .last-box img {
+        display: none;
+    }
+
+    .video {
+        max-width: 100%;
+        height: auto;
+
+        
+        
+    }
+
+    .video h1 {
+        display: none;
+    }
+    
+    .video p {
+        display: none;
+    }
+    .video video{
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+        
+    }
+    .info {
+       display: none;
+    }
+
+    .thesis-content {
+        width: 100%;
+        display: block;
+        
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    .terms {
+        display: none;
+    }
+}
